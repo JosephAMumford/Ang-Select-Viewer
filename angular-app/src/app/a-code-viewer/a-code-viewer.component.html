@@ -1,0 +1,25 @@
+<form [formGroup]="nodeForm" (ngSubmit)="onSubmit()">
+  <select formControlName="formNode1" (change)="onChange1()" required>
+    <option *ngFor="let x of n1Codes; let i = index" [value]="x.id">{{x.Node1}}</option>
+  </select>
+
+  <select *ngIf="n2Codes.length" formControlName="formNode2" (change)="onChange2()" required>
+    <option *ngFor="let x of n2Codes; let i = index" [value]="x.id">{{x.Node2}}</option>
+  </select>
+
+  <select *ngIf="n3Codes.length" formControlName="formNode3" (change)="onChange3()" required>
+      <option *ngFor="let x of n3Codes; let i = index" [value]="x.id">{{x.Node3}}</option>
+    </select>
+
+  <button type="submit" [disabled]="!nodeForm.valid">Submit</button>
+</form>
+
+<p>
+  Form Value: {{ nodeForm.value | json }}
+</p>
+<p>
+  Form Status: {{ nodeForm.status }}
+  Node 1: {{ node1 }}
+  Node 2: {{ node2 }}
+  Node 3: {{ node3 }}
+</p>

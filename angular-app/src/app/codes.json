@@ -1,0 +1,100 @@
+{
+  "Codes":[
+    {
+      "id": 0,
+      "Node1" : "Code A 0",
+      "sub" : [
+        {
+          "id": 0,
+          "Node2" : "Code B 0",
+          "sub" : [
+            {
+              "id": 0,
+              "Node3": "Code C 0"
+            },
+            {
+              "id": 1,
+              "Node3": "Code C 1"
+            },
+            {
+              "id": 2,
+              "Node3": "Code C 2"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "Node2" : "Code B 1",
+          "sub" : [
+            {
+              "id": 0,
+              "Node3": "Code C 0"
+            },
+            {
+              "id": 1,
+              "Node3": "Code C 1"
+            },
+            {
+              "id": 2,
+              "Node3": "Code C 2"
+            },
+            {
+              "id": 3,
+              "Node3": "Code C 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":1,
+      "Node1" : "Code A 1",
+      "sub" : [
+        {
+          "id": 0,
+          "Node2" : "Code B 0",
+          "sub" : [
+            {
+              "id": 0,
+              "Node3": "Code C 0"
+            },
+            {
+              "id": 1,
+              "Node3": "Code C 1"
+            },
+            {
+              "id": 2,
+              "Node3": "Code C 2"
+            },
+            {
+              "id": 3,
+              "Node3": "Code C 3"
+            },
+            {
+              "id": 4,
+              "Node3": "Code C 4"
+            },
+            {
+              "id": 5,
+              "Node3": "Code C 5"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "Node2" : "Code B 1",
+          "sub" : [
+            {
+              "id": 0,
+              "Node3": "Code C 0"
+            },
+            {
+              "id": 1,
+              "Node3": "Code C 1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
